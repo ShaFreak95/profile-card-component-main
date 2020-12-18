@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.google.com/specimen/Kumbh+Sans">
+  <title>Shafiq Akiya | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Shafiq Akiya</a>.
+  </div>
+
+  <div class="background"> <!-- To set fixed website background -->
+    <img class="top-pattern" src="images/bg-pattern-top.svg" alt="pattern-top">
+    <img class="bottom-pattern" src="images/bg-pattern-bottom.svg" alt="pattern-bottom">
+
+    <div class="profile-card-container"> <!-- Create profile card within nested div -->
+      <img class="pattern-card"src="images/bg-pattern-card.svg" alt="pattern-card">
+      <div class="profile-card-picture">
+        <div class="white-background">
+        </div>
+        <img class="profile-pic" src="images/image-victor.jpg" alt="victor-profile-picture">
+      </div>
+      <div class="profile-top">
+        <h3 class="profile-name">Victor Crest</h3>
+        <p class="profile-age">26</p>
+        <p class="profile-location">London</p>
+      </div>
+      <hr>
+      <div class="profile-bottom">
+        <div class="first-row">
+          <p class="total-count">80K</p>
+          <p class="total-count">803K</p>
+          <p class="total-count">1.4K</p>
+        </div>
+        <div class="second-row">
+          <p class="info-name">Followers</p>
+          <p class="info-name">Likes</p>
+          <p class="info-name">Photos</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

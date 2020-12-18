@@ -1,0 +1,137 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.125rem;
+  margin: 0;
+  background-color: #19a2ae;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.125rem;
+  margin: 3.5rem auto 0;
+}
+
+hr {
+  border: 1px solid #969696
+}
+
+img {
+  height: 7.5rem;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.background{
+  position: relative;
+  overflow:hidden; /* since the image is big, when positioned to the desire
+  placement, the website will automatically overflow and to prevent that, has
+  to set to hidden */
+  width: 100%;
+  height: 620px;
+}
+
+.top-pattern {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  bottom: 45%;
+  right: 40%;
+}
+
+.bottom-pattern {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  top: 45%;
+  left: 40%;
+}
+
+.pattern-card {
+  border-top-right-radius: 0.9375rem;
+  border-top-left-radius: 0.9375rem;
+}
+
+.profile-card-container {
+  margin: 8.5rem auto;
+  height: 20.5rem;
+  width: 300px;
+  border: 0 solid;
+  background-color: white;
+  border-radius: 0.9375rem;
+}
+
+.profile-card-picture {
+  position: relative;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  width: 5rem;
+  position: absolute;
+  height: 5rem;
+  top: -2.8125rem;
+  right: 6.9rem;
+}
+
+.profile-top {
+  margin-bottom: 1.25rem;
+}
+
+.white-background {
+  border: 2.8rem solid white;
+  border-radius: 100%;
+  width: 1px;
+  position: absolute;
+  left: 6.5rem;
+  top: -3.125rem;
+}
+
+.profile-name {
+  display: inline-block;
+}
+
+.profile-age {
+  color: grey;
+  display: inline-block;
+  font-size: 1.03125rem;
+  margin: 0 0 0 0.125rem;
+}
+
+.profile-location {
+  color: grey;
+  margin-top: 0.6rem;
+}
+
+.profile-bottom {
+  margin-top: 1rem;
+}
+
+.total-count {
+  display: inline-block;
+  font-size: 1.125rem;
+  margin: 0 1.25rem;
+}
+
+.info-name {
+  display: inline-block;
+}
+
+.first-row {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.second-row {
+  text-align: left;
+}
+
+.info-name {
+  color: grey;
+  font-size:0.5625rem;
+  letter-spacing: 0.125rem;
+  margin: 0 0.6rem 0 2.1rem;
+}
